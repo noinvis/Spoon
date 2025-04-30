@@ -48,7 +48,7 @@ window.addEventListener("scroll", ()=>{
 
 {
     // 5 - task 
-    // function countUnli(str) {
+    // const countUnli = str => {
     //     let count = 0;
     //     const unli = "aeuiouAEUIO";
     //     for (let i = 0; i < str.length; i++) {
