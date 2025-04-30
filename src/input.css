@@ -1,0 +1,114 @@
+@import "tailwindcss";
+@font-face {
+    font-family: "Libre";
+    src: url("./fonts/LibreFranklin-Regular.ttf");
+}
+@font-face {
+    font-family: "Mono";
+    src: url("./fonts/IBMPlexMono-Regular.ttf");
+}
+
+header{
+    background: url("./img/IMAGE.svg") no-repeat center/cover;
+}
+*{
+    user-select: none;
+}
+.container{
+    max-width: 1210px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container2{
+    max-width: 1420px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    cursor: pointer;
+}
+.border1{
+    border: 1px solid #5AB963;
+}
+.border2{
+    box-shadow: 0 0 2px #999;
+}
+.animation-top{
+    transform: translateY(-60px);
+    opacity: 0;
+    animation: FromTop .5s ease-out .2s forwards;
+}
+.animation-top1{
+    transform: translateY(-60px);
+    opacity: 0;
+    animation: FromTop .5s ease-out .2s forwards;
+}
+.animation-top2{
+    transform: translateY(-60px);
+    opacity: 0;
+    animation: FromTop .5s ease-out .2s forwards;
+}
+.animation-top3{
+    transform: translateY(-60px);
+    opacity: 0;
+    animation: FromTop .5s ease-out .2s forwards;
+}
+.animation-right{
+    transform: translateX(60px);
+    opacity: 0;
+    animation: FromRight .5s ease-out .3s forwards;
+}
+.animation-left{
+    transform: translateX(-60px);
+    opacity: 0;
+    animation: FromLeft .5s ease-out .3s forwards;
+}
+ul .animation-top1{
+    animation-delay: .4s;
+}
+ul .animation-top2{
+    animation-delay: .6s;
+}
+ul .animation-top3{
+    animation-delay: .8s;
+}
+.animation-bottom{
+    transform: translateY(60px);
+    opacity: 0;
+    animation: FromBottom .4s ease-out .3s forwards;
+}
+.animation-bottom1{
+    transform: translateY(60px);
+    opacity: 0;
+    animation: FromBottom .8s ease-out .3s forwards;
+}
+@keyframes FromLeft {
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes FromRight {
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes FromTop {
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes FromBottom {
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
